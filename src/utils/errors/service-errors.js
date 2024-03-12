@@ -7,10 +7,10 @@ class ServiceError extends Error {
         statuscode = StatusCodes.INTERNAL_SERVER_ERROR
     ) {
         super();
-        this.name = 'Service Error',
-        this.message = message,
-        this.explanation = explanation,
-        this.statuscode = statuscode
+        this.name = 'Service Error';
+        this.message = message;
+        this.explanation = explanation;
+        this.statuscode = statuscode;
     }
 }
 
